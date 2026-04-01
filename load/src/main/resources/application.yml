@@ -1,0 +1,5 @@
+loadbalancer:
+  algorithm: round-robin   # or: least-connections
+  backends:
+    - http://localhost:8081
+    - http://localhost:8082
